@@ -63,7 +63,7 @@ make the PrintStream variable available in the calling method so we can use it. 
 `printStream` into the constructor of the class that uses it.
 
 ``` java
-public class com.thoughtworks.tddintro.exercises.library.Main {
+public class tddintro.exercises.library.Main {
     public static void main(String[] args) {
         GreetingPrinter greetingPrinter = new GreetingPrinter(System.out);
         greetingPrinter.printGreeting();
@@ -221,7 +221,7 @@ Last development, but it's a smart thing to do if you inherit untested code.
 
 #### Using Verify
 
-Find the class `com.thoughtworks.tddintro.exercises.library.Main` and run it. This shows you the existing behavior of the program; which is
+Find the class `tddintro.exercises.library.Main` and run it. This shows you the existing behavior of the program; which is
 to print out the three books that are added in the `Main` class. Note that we are passing the list of books and the
 `PrintStream` into the constructor of `Library`. This lets us use a real `PrintStream` in our main method and a mock
 `PrintStream` in our tests.
@@ -231,7 +231,7 @@ nothing will print to the console except the test results. This is important bec
 of thousands of tests and if many of them printed to the console we wouldn't be able to find the test results in all of
 spam from our program printing so much.
 
-Now go to the class `com.thoughtworks.tddintro.exercises.library.LibraryTest` (it's located in the `test/java` directory). This class has three
+Now go to the class `tddintro.exercises.library.LibraryTest` (it's located in the `test/java` directory). This class has three
 unit tests in it. The first one is mostly implemented. You should add a `verify` statement to make sure that the correct
 string is being printed to the mock `PrintStream`.
 

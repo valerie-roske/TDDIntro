@@ -185,7 +185,7 @@ refactor it into code that is easier to read, extend, and test. Now **you** can 
 
 ### Factorial Exercise
 
-Open the class **`com.thoughtworks.tddintro.exercises.factorial.FactorialTests`**. You'll find five unit tests there. Your goal is to make
+Open the class **`tddintro.exercises.factorial.FactorialTests`**. You'll find five unit tests there. Your goal is to make
 changes to the class **`Factorial`** so that one more test passes than the last time you made a change. Essentially,
 you're doing the *Make the failing test pass* step of TDD. This should help you get used to the rhythm of TDD before
 you have to write your own tests. Here's the cycle you should go through once for each test.
@@ -204,7 +204,7 @@ you need to.
 
 Now you're going to write your own test.
 
-Look in the class **`com.thoughtworks.tddintro.exercises.accountbalance.AccountTests`**. You'll see three commented out empty unit tests
+Look in the class **`tddintro.exercises.accountbalance.accountbalance.AccountTests`**. You'll see three commented out empty unit tests
 (one for each of the test cases listed below).
 
 For each of the test cases:
